@@ -1,6 +1,6 @@
 def main():
     name  = "Tanmoy"
-    list = ["tanmoy","rahul","raj"]
+    list = ["tanmoy","rahul","raj","sayan"]
     print(name == "tanmoy")
     print(name == "Tanmoy")
     print("T" in name)
@@ -21,6 +21,7 @@ def main():
     print("Concatenation example list :: " + str(list) * 2)
     print(list[1])
     print(list[-2])
+    print(list[1:3])
 
 
 if __name__ == '__main__':
