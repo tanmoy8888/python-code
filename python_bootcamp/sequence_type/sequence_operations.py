@@ -17,6 +17,8 @@ def main():
     print("Ram" not in list)
     ## concatenations -- For list have to convert it into str then concatenation will work
     print("Concatenation example list :: " + str(list) * 2)
+    print(list[1])
+    print(list[-2])
 
 
 if __name__ == '__main__':
