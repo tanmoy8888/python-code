@@ -8,6 +8,8 @@ def main():
     print("Tan" in name)
     ## concatenations
     print("Concatenation example :: "+ (name+" ") *2)
+    print(name[2])
+    print(name[-2])
 
 
     print(list == ["tanmoy","rahul","raj"])
