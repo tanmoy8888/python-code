@@ -3,8 +3,17 @@ def main():
     list = ["tanmoy","rahul","raj"]
     print(name == "tanmoy")
     print(name == "Tanmoy")
+    print("T" in name)
+    print("t" in name)
+    print("Tan" in name)
+
+
+
     print(list == ["tanmoy","rahul","raj"])
     print(list == ["Tanmoy","rahul","raj"])
+    print("Ram" in list)
+    print("Raj" in list)
+    print("Ram" not in list)
 
 
 if __name__ == '__main__':
