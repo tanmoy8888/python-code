@@ -1,8 +1,11 @@
 
 
 def input_operations():
-    n = int(input("Please enter a number \n"))
-    print("You entered , "+str(n))
+    try:
+      n = int(input("Please enter a number \n"))
+      print("You entered , "+str(n))
+    except ValueError:
+        print("Please enter numeric values only")
 
 
 def main():
