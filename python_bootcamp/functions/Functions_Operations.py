@@ -12,6 +12,8 @@ def main():
     even_odd(5)
     print(even_odd(5))
     print(mandatory_optional())
+    print(mandatory_optional("Hii"))
+    print(mandatory_optional(second="There"))
 
 if __name__ == '__main__':
    main()
