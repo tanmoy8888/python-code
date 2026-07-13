@@ -4,10 +4,10 @@ def even_odd(a):
        print("Even")
     else:
        print("Odd")
+
 def main():
     even_odd(5)
-
-
+    print(even_odd(5))
 
 if __name__ == '__main__':
    main()
