@@ -7,5 +7,6 @@ class Car:
 
     def main(self):
         car1 = Car("Maruti","Blue")
+        car1.launch()
     if __name__ == '__main__':
         main()
